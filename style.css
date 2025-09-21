@@ -1,0 +1,46 @@
+body {
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .upload-container {
+    margin-bottom: 20px;
+  }
+  
+  input[type="file"] {
+    margin-right: 10px;
+  }
+  
+  .preview-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #preview, #camera, #canvas {
+    max-width: 720px;
+    width: 100%;
+    border: 2px solid #333;
+    margin-top: 10px;
+  }
+  
+  #canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    display: inline-block;
+  }
+  

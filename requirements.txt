@@ -1,0 +1,8 @@
+dlib-bin
+face-recognition
+fastapi
+uvicorn[standard]
+opencv-python-headless
+numpy
+python-multipart
+requests
